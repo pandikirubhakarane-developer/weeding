@@ -1,22 +1,64 @@
-// ONE place to edit invitation content. Set a value to null/'' to hide the UI that depends on it.
+// One place to manage all wedding invitation details.
+
 export const wedding = {
-  groomName: 'Pandi Kirubhakaran E',
-  brideName: 'Sowmiya C',
-  groomShort: 'Kirubha', brideShort: 'Sowmy',
-  weddingDate: '2026-11-20',            // YYYY-MM-DD
-  weddingTime: null as string | null,   // TODO: e.g. '09:00' (24h) — hides time + Add to Calendar until set
-  timezone: 'Asia/Kolkata',
-  tzOffset: '+05:30',
-  receptionDate: null as string | null, // TODO
-  receptionTime: null as string | null, // TODO
-  venueName: null as string | null,     // TODO
-  venueAddress: null as string | null,  // TODO
-  mapsUrl: 'https://maps.app.goo.gl/pfJ36xvUDDEWG9Es8',
-  musicPath: '/audio/wedding-bgm.mp3',
-  invitationUrl: process.env.NEXT_PUBLIC_SITE_URL || '',
+  groomName: "Pandi Kirubhakaran E",
+  brideName: "Sowmiya C",
+
+  groomShort: "Kirubha",
+  brideShort: "Sowmy",
+
+  // Wedding / Muhurtham
+  weddingDate: "2026-11-20",
+  weddingTime: "09:00" as string | null,
+
+  // Timezone
+  timezone: "Asia/Kolkata",
+  tzOffset: "+05:30",
+
+  // Nichayathartham
+  engagementDate: "2026-11-19" as string | null,
+  engagementTime: null as string | null,
+
+  // Reception
+  receptionDate: "2026-11-19" as string | null,
+  receptionTime: "18:00" as string | null,
+
+  // Event end times
+  receptionEndTime: "19:00",
+  weddingEndTime: "10:00",
+
+  // Venue
+  venueName: "VNR Nadar Mahal" as string | null,
+  venueAddress: "Chinnamanur, Theni, Tamil Nadu" as string | null,
+
+  // Confirm this is the correct venue map link
+  mapsUrl: "https://maps.app.goo.gl/pfJ36xvUDDEWG9Es8",
+
+  // Background music
+  musicPath: "/audio/wedding-bgm.mp3",
+
+  // Invitation URL
+  invitationUrl: process.env.NEXT_PUBLIC_SITE_URL || "",
+
+  // Gallery
   enableGallery: false,
-  gallery: [] as { src: string; alt: string }[],   // 4–8 images in /public/images
+
+  gallery: [] as {
+    src: string;
+    alt: string;
+  }[],
+
+  // Love Story
   enableStory: false,
-  story: { text: '', photo: '' },
+
+  story: {
+    text: "",
+    photo: "",
+  },
 };
-export const weddingStart = () => new Date(`${wedding.weddingDate}T${wedding.weddingTime ?? '00:00'}:00${wedding.tzOffset}`);
+
+// Wedding countdown starts at 9:00 AM IST
+export const weddingStart = () =>
+  new Date(
+    `${wedding.weddingDate}T${wedding.weddingTime ?? "00:00"}:00${wedding.tzOffset}`,
+  );

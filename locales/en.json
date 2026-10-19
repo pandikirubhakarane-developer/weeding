@@ -1,7 +1,52 @@
-{"tap":"Tap to Open Our Wedding Invitation","invite":"Wedding Invitation","weds":"weds","quote":"Two hearts, one journey — blessed by family, begun in joy.",
-"saveDate":"Save The Date","until":"Until We Say “I Do”","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","celebrate":"Today we celebrate! Thank you for your blessings.",
-"detailsTitle":"Wedding Details","wedding":"Wedding / Muhurtham","reception":"Reception","date":"Date","time":"Time","venue":"Venue","address":"Address",
-"venueTitle":"Wedding Venue","openMaps":"Open in Google Maps","addCal":"Add to Calendar","gcal":"Google Calendar","share":"Share","copy":"Copy Invitation Link","copied":"Link copied",
-"storyTitle":"Two Hearts, One Journey","galleryTitle":"Photo Moments",
-"blessTitle":"Your Blessings","blessings":"With the blessings of our families, we warmly invite you and your family to celebrate this beautiful beginning with us. Your presence and blessings will make our special day even more memorable.",
-"closing":"Your presence and blessings are warmly awaited.","withLove":"With Love,","musicOn":"Music on","musicOff":"Music off","lang":"Language"}
+{
+  "tap": "Tap to Open Our Wedding Invitation",
+  "invite": "Wedding Invitation",
+  "weds": "weds",
+  "quote": "Two hearts, one journey — blessed by family, begun in joy.",
+
+  "saveDate": "Save The Date",
+  "until": "Until We Say 'I Do'",
+  "days": "Days",
+  "hours": "Hours",
+  "minutes": "Minutes",
+  "seconds": "Seconds",
+  "celebrate": "Today we celebrate! Thank you for your blessings.",
+
+  "detailsTitle": "Wedding Celebrations",
+  "engagement": "Nichayathartham (Engagement)",
+  "reception": "Wedding Reception",
+  "wedding": "Wedding / Muhurtham",
+  "date": "Date",
+  "time": "Time",
+  "venue": "Venue",
+  "address": "Address",
+
+  "engagementDate": "19 November 2026",
+  "receptionDate": "19 November 2026",
+  "receptionTime": "6:00 PM – 7:00 PM",
+  "weddingDate": "20 November 2026",
+  "weddingTime": "9:00 AM – 10:00 AM",
+
+  "venueName": "VNR Nadar Mahal",
+  "venueAddress": "Chinnamanur, Theni, Tamil Nadu",
+
+  "venueTitle": "Wedding Venue",
+  "openMaps": "Open in Google Maps",
+  "addCal": "Add to Calendar",
+  "gcal": "Google Calendar",
+  "share": "Share",
+  "copy": "Copy Invitation Link",
+  "copied": "Link copied",
+
+  "storyTitle": "Two Hearts, One Journey",
+  "galleryTitle": "Photo Moments",
+
+  "blessTitle": "Your Blessings",
+  "blessings": "With the blessings of our families, we warmly invite you and your family to celebrate this beautiful beginning with us. Your presence and blessings will make our special day even more memorable.",
+
+  "closing": "Your presence and blessings are warmly awaited.",
+  "withLove": "With Love,",
+  "musicOn": "Music on",
+  "musicOff": "Music off",
+  "lang": "Language"
+}
